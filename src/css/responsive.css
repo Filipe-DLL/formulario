@@ -1,0 +1,49 @@
+@media (max-width:900px) {
+    .container {
+        flex-direction: column;
+        gap: 3rem;
+    }
+
+    .container .info {
+        width: 34rem;
+
+    }
+
+    .container .info .titulo {
+        text-align: center;
+        letter-spacing: 0.2rem;
+    }
+
+    .container .info .texto {
+        text-align: center;
+        letter-spacing: 0.08rem;
+    }
+}
+
+@media (max-width:350px) {
+    .container {
+        margin-bottom: 2rem;
+        gap: 1rem;
+    }
+
+    .container .info {
+        width: 25rem;
+    }
+
+    .container .info .titulo {
+        letter-spacing: 0.1rem;
+    }
+
+    .container .info .texto {
+        text-align: center;
+    }
+
+    .container .formulario {
+        width: 25rem;
+    }
+
+    .container .formulario input,
+    .container .formulario textarea {
+        width: 21rem;
+    }
+}
